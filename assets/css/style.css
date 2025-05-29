@@ -4,16 +4,235 @@ h1 {
     font-size: 2em;
 }
 
+ body {
+    background-image: url("/assets/img/sfondo.png");
+    background-repeat: repeat;
+    background-position: center;
+    background-repeat: repeat-y;
+    background-size: auto;
+    width: 450px;
+    margin: 0 auto;
+    font-family: "Poppins", sans-serif;
+ }
+
+ul {
+  list-style-type: disc;
+  margin-left: 30px;
+  margin-right: 30px;
+}
+
 /* HEADER */
+
+header {
+    background: linear-gradient(#037f9f, #075e74);
+    margin: 30px;
+    padding: 30px;
+    box-shadow: 2px 2px 1px grey;
+
+}
+
+header img {
+    width: 220px;
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+header p {
+    color: white;
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+header nav>ul>li>a {
+    color: white;
+    text-align: center;
+    text-decoration: none;
+}
+
+.li5 {
+   list-style-type: none;
+}
+
+header nav>ul>li>a>i {
+    color: whitesmoke;
+    margin: 5px;
+}
+
+nav {
+    text-align: center;
+}
 
 /* MAIN */
 
+main  {
+    background: white;
+    border: 1px solid grey;
+    border-top: none;
+    box-shadow: 2px 2px 2px grey;
+    margin: 30px;
+}
+
 /* ELEMENTI NEL MAIN - ARTICLE */
+
+main h1  {
+    padding-top: 30px;
+    padding-bottom: 20px;
+    padding-left: 10px;
+}
+
+main p  {
+    padding: 10px;
+}
+
+#p1 {
+    color: rgb(150, 150, 150);
+}
+
+main ul {
+    padding-top: 10px;
+    padding-bottom: 0px;
+    padding-left: 10px;
+}
+
+ol {
+    padding-top: 10px;
+    padding-bottom: 20px;
+    padding-left: 10px;
+    margin-left: 30px;
+    margin-right: 30px;
+}
+
+ol li {
+    list-style-type: decimal;
+}
 
 /* TABELLE */
 
+caption {
+    font-style: italic;
+    font-weight: bold;
+    text-align: center;
+    padding-bottom: 5px;
+}
+
+table {
+  width: 90%;
+  margin-left: auto;
+  margin-right: auto;
+  border-collapse: collapse;
+  font-family: sans-serif;
+  font-size: 16px;
+  text-align: center;
+  margin-top: 10px;
+  border-bottom: 2px solid #3366cc;
+  margin-bottom: 30px;
+}
+
+th {
+  background-color: #3366cc;
+  color: white;
+}
+
+th, td {
+  padding: 12px;
+}
+
+tbody tr:nth-child(even) {
+  background-color: #f2f2f2;
+}
 /* FORM */
 
 /* ELEMENTI NELL' ASIDE */
 
+iframe {
+    border-radius: 10px;
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 10px;
+}
+
+aside {
+    margin-top: 30px;
+}
+
+aside h1 {
+    text-align: center;
+}
+
+.riquadro1 {
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: rgb(180, 180, 180);
+    background-size: 90%;
+    text-align: center;
+    padding: 10px;
+}
+
+.riquadro2 {
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: rgb(180, 180, 180);
+    text-align: center;
+    padding: 10px;
+}
+
+.riquadro3 {
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: rgb(180, 180, 180);
+    text-align: center;
+    padding: 10px;
+    margin-top: 10px;
+}
+
+.riquadro4 {
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: rgb(180, 180, 180);
+    background-size: 90%;
+    text-align: center;
+    padding: 10px;
+    margin-top: 10px;
+    margin-bottom: 30px;
+}
+
+
+
 /* FOOTER */
+
+footer {
+    background: linear-gradient(#037f9f, #075e74);
+    color: white;
+    margin: 30px;
+    padding: 10px;
+    box-shadow: 2px 2px 1px grey;
+
+}
+
+footer p {
+    text-align: center;
+    margin: 10px 0px;
+}
+
+footer a {
+    color: rgb(240, 70, 255);
+}
+
+.footer1a {
+    color: #037f9f;
+}
+
+.pfooter {
+    text-align: left;
+}
+
+.pfooter1 {
+    text-align: right;
+}
